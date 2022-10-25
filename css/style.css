@@ -18,6 +18,11 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    color: #05699F;
+    font-size: 45px;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -115,4 +120,47 @@ input[type="text"]{
     color: #4B5353;
     font-weight: bold;
     align-self: flex-end;
+}
+/*MESSAGE IMPORTANT*/
+#message-important{
+    background: #EDFBFE;
+    display: flex;
+}
+
+#ms-imp-txt-wrapper{
+    width: 50%;
+    align-self: center;
+    margin-left: 160px;
+}
+#ms-imp-txt-wrapper h2{
+    margin-bottom: 2%;
+}
+#ms-imp-txt-wrapper p{
+    font-size: 16px;
+    font-weight: 100
+    ;
+}
+#ms-imp-img{
+    width: 50%;
+    padding-top: 3%;
+}
+#img-bibliotheque{
+    height:283px ;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 20%;
+}
+
+#ms-imp-txt-wrapper #button-2{
+    width: 152px;
+    height: 49px;
+    color: #fff;
+    background: #00B8F1;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+#ms-imp-txt-wrapper #button-2 img{
+    margin-left: 20px;
+   
 }
