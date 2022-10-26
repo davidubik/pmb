@@ -23,6 +23,19 @@ h2{
     font-size: 45px;
 }
 
+h3{
+    color: #4B5353;
+    font-size: 45px;
+}
+h4{
+    font-size: 45px;
+}
+
+small{
+    color: #8E3185;
+    font-size: 14px;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -121,6 +134,9 @@ input[type="text"]{
     font-weight: bold;
     align-self: flex-end;
 }
+#button-1:hover{
+    background: rgb(242, 241, 241);
+}
 /*MESSAGE IMPORTANT*/
 #message-important{
     background: #EDFBFE;
@@ -162,5 +178,83 @@ input[type="text"]{
 }
 #ms-imp-txt-wrapper #button-2 img{
     margin-left: 20px;
-   
+   position: absolute;
+}
+#ms-imp-txt-wrapper #button-2:hover{
+    background:#008cb7 ;
+}
+
+/*CARROUSEL*/
+#img-container-carrousel{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.fleche-carrousel{
+    width: 38px;
+    height: 40px;
+    margin-top: 70px;
+}
+
+/*CARTOTHEQUE PUBLICATIONS*/
+#cartotheque-publication{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#cartotheque{
+    width: 778px;
+    height: 442px;
+    background: #E5F8FE;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#ornementation-bleu {
+   width: 50px;
+}
+
+#photo{
+    width: 100px;
+    align-self: center;
+}
+
+#cartotheque h4{
+    color: #05699F;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#publication{
+    width: 778px;
+    height: 442px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:#F4EAF3;
+}
+
+#livre{
+    margin-top: 160px ;
+}
+
+#publication h4{
+    color: #8E3185;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#ornementation-violette{
+    position: absolute;
+    margin-top: 342px;
+    align-self: flex-end;
+}
+
+/*FOOTER*/
+
+footer{
+    background: #4B5353;
+    height: 386px;
 }
